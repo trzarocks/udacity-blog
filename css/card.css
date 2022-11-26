@@ -1,0 +1,24 @@
+/* Styles the Post Card pattern */
+
+.post-card {
+    width: 33%;
+}
+
+.photo-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+}
+
+.caption {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.date {
+    font-size: 12px;
+}
+
+.excerpt {
+    font-size: 16px;
+}

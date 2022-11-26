@@ -1,0 +1,45 @@
+
+/* Must import at least 3 files */
+@import url(fonts.css);
+@import url(card.css);
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 250px auto auto 100px;
+    gap: 10px 10px;
+    grid-template-areas: 
+        "header header header header header header"
+        "main main main main sidebar sidebar"
+        "main main main main signup signup"
+        "footer footer footer footer footer footer";
+}
+
+.header {
+    grid-area: header;
+    background-color: red
+}
+
+.main {
+    grid-area: main;
+    display: flex;
+    flex-direction: row;
+    background-color: orange
+
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: yellow
+}
+
+.signup {
+    grid-area: signup;
+    background-color: cadetblue;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: green;
+
+}
