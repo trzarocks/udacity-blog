@@ -1,7 +1,13 @@
 /* Styles the Post Card pattern */
 
 .post-card {
-    width: 33%;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 5vh auto;
+    padding-bottom: 5vh;
+    border: 1px solid black;
+
 }
 
 .photo-placeholder {
