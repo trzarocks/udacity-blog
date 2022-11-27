@@ -10,9 +10,9 @@ udacity-blog
 
 ### CSS Imports
 - [ ] Import at least 3 files
-    - A
-    - B
-    - C
+    - [x] /css/fonts.css
+    - [x] /css/card.css
+    - [x] /css/navbar.css
 
 ### Directories and Files
 - [x] Files are organized with a directory structure that separates files based on page and functionality.
@@ -40,10 +40,10 @@ udacity-blog
 - Colors:  Use at least three
 
 ### Components
-- Images
-- Image Caption
-- Button
-- Card
+- [ ] Images
+- [ ] Image Caption
+- [ ] Button
+- [ ] Card
 
 ### Patterns
 
