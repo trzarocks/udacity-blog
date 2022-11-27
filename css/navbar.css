@@ -1,0 +1,23 @@
+.menu ul {
+    margin: auto;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    padding: 1em 2em;
+    margin-bottom: 2em;
+    color:burlywood;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-right: 1px solid burlywood;
+    border-width: 80%;
+}
+
+.menu  {
+    width: 100%;
+    margin: 1em auto 0;
+    padding: 1em 0;
+    background-color: #333;
+}
