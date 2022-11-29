@@ -6,14 +6,30 @@
     width: 45%;
     margin: 5vh auto;
     padding-bottom: 5vh;
-    border: 1px solid black;
+    border: 1px solid var(--color-dark);
+    border-radius: 12px 12px 0 0;
     background-color: #fff;
 }
 
-.photo-placeholder {
+figure {
     width: 100%;
-    height: 300px;
-    background-color: grey;
+    margin: 0 auto 16px;
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    text-align: center;
+    border-top: 1px var(--color-light);
+    border-radius: 12px 12px 0 0;
+}
+
+.featured-image {
+    width: 100%;
+}
+
+.featured-image img {
+    width: 100%;
 }
 
 .caption {
@@ -25,6 +41,12 @@
     font-size: 12px;
 }
 
-.excerpt {
-    font-size: 16px;
+.title h3 {
+    text-align: center;
+}
+
+.excerpt p {
+    font-size: 22px;
+    line-height: 1.5;
+    padding: 0em 1em 0em 1em;
 }
