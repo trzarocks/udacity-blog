@@ -21,29 +21,29 @@ udacity-blog
     - /
 
 ### Links
-- [ ] There is an intentional user flow on each page with appropriate links as needed.
+- [x] There is an intentional user flow on each page with appropriate links as needed.
 
 ## Design
 
 ### Custom Design
-- [ ] Custom images, layout, and styling
+- [x] Custom images, layout, and styling
 
 ### Foundations/Building Blocks
 - Typography:  Custom design with at least three unique properties for each selector.
-    - Headers:  h1 to h3
+    - [x] Headers:  h1 to h3
     - Paragraph text: <p>
-        - bold
-        - italic
-        - underlined
+        - [ ] bold
+        - [x] italic
+        - [ ] underlined
     - Links 
     - Quotes
 - Colors:  Use at least three
 
 ### Components
-- [ ] Images
-- [ ] Image Caption
-- [ ] Button
-- [ ] Card
+- [x] Images
+- [x] Image Caption
+- [x] Button
+- [x] Card
 
 ### Patterns
 
@@ -52,9 +52,9 @@ The general pattern of the webpages should be as follows:
 - Blog Homepage
     - Navbar
     - Blog Post Card
-        - Card
-        - Image
-        - Buttons
+        - [x] Card
+        - [x] Image
+        - [x] Buttons
     - Footer
 - Blog Post
     - Header
@@ -70,8 +70,8 @@ The general pattern of the webpages should be as follows:
         - LinkedIn
 
 ### Pages
-- Blog Homepage
-- Blog Post
+- [x] Blog Homepage
+- [ ] Blog Post
 
 ## Layout
 
@@ -82,7 +82,7 @@ The general pattern of the webpages should be as follows:
 
 ### Grid Based Layout
 - Uses CSS Grid at least twice throughout the project to create layout for the pages
-    - [ ] Homepage
+    - [x] Homepage
     - [ ] Blog
 
 ## Responsive Layout
@@ -98,7 +98,7 @@ The general pattern of the webpages should be as follows:
         - [ ] <footer>
         - [ ] <article>
         - [ ] <section>
-        - [ ] <nav>
+        - [x] <nav>
     - No div or section without a class or ID
 - HTML formatting rules
     - All code is lowercase
