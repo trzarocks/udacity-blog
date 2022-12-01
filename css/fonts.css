@@ -9,10 +9,6 @@
     font-family: 'Lora', sans-serif;
 }
 
-p {
-    font-family: 'Lora', serif;
-}
-
 h2 {
     font-family: 'Figtree', sans-serif;
     width: 100%;
@@ -27,14 +23,14 @@ h2 {
     font-weight: 700;
     font-size: 4em;
     margin-bottom: 0;
-    color: var(--color-light)
+    color: var(--color-light);
 }
 
 .header p {
     font-family: 'Lora', serif;
     font-size: 1.6em;
     font-weight: 400;
-    color: var(--color-light)
+    color: var(--color-light);
 }
 
 h3 {
@@ -67,4 +63,10 @@ a.button {
     font-weight: 700;
     color: var(--color-light);
 
+}
+
+/* Signup Form */
+
+.signup {
+    color: var(--color-light);
 }

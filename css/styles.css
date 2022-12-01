@@ -1,11 +1,9 @@
 /* Must import at least 3 files */
-
 @import url(fonts.css);
 @import url(card.css);
 @import url(navbar.css);
 
 /* Set up Color Vars */
-
 :root {
     --color-light: #F7F0F5;
     --color-dark: #36454F;
@@ -18,7 +16,7 @@
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto auto auto 100px;
     gap: 10px 10px;
-    grid-template-areas: "header header header header header header" "main main main main sidebar sidebar" "main main main main signup signup" "footer footer footer footer footer footer";
+    grid-template-areas: "header header header header header header" "main main main main sidebar sidebar" "main main main main sidebar sidebar" "footer footer footer footer footer footer";
 }
 
 .header {
@@ -63,12 +61,24 @@
 
 .sidebar {
     grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
     background-color: yellow;
 }
 
 .signup {
-    grid-area: signup;
-    background-color: cadetblue;
+    background-color: var(--color-red);
+    text-align: center;
+}
+
+.form {
+    text-align: center;
+    margin:auto;
+}
+
+.submit {
+    margin: 1em 0 2em 0;
+
 }
 
 .footer {

@@ -46,7 +46,7 @@ figcaption {
 
 .date {
     font-size: 14px;
-    padding-left: 20px
+    padding-left: 20px;
 }
 
 .title h3 {
@@ -67,4 +67,35 @@ figcaption {
     justify-content: center;
     position: absolute;
     margin-top: auto;
+}
+
+/* Subject Card */
+
+.subject-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: var(--color-green);
+    margin: 2%;
+    border-radius: 20px;
+    clip-path: inset(0, 0, 0, 30%);
+    background-clip: padding-box;
+
+}
+
+.subject-img {
+ 
+    background: var(--color-light);
+    border-radius: 20px 50% 50% 20px;
+    width: 80%;
+    height: 80%;
+    border: 1px solid var(--color-light)
+}
+
+.subject-img img {
+    width: 200px;
+}
+
+.subject-info {
+    margin: 0 1em 0 1em;
 }
