@@ -1,3 +1,9 @@
+/* The Cards Section */
+
+.cards h2 {
+    color: var(--color-light);
+}
+
 /* Styles the Post Card pattern */
 
 .post-card {
@@ -84,16 +90,29 @@ figcaption {
 }
 
 .subject-img {
- 
+    display: flex;
+    align-items: flex-end;
     background: var(--color-light);
-    border-radius: 20px 50% 50% 20px;
-    width: 80%;
-    height: 80%;
-    border: 1px solid var(--color-light)
+    border-radius: 50% 50%;
+    width: 60%;
+    height: 100%;
+    border: 1px solid var(--color-light);
+    position: relative;
+}
+
+.subject-img-prsn  {
+    display: flex;
+    align-items: flex-end;
 }
 
 .subject-img img {
     width: 200px;
+    border-radius: 20px;
+}
+
+.subject-img-prsn img {
+    width: 200px;
+    border-radius: 20px;
 }
 
 .subject-info {

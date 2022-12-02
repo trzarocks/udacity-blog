@@ -63,7 +63,7 @@
     grid-area: sidebar;
     display: flex;
     flex-direction: column;
-    background-color: yellow;
+    background-color: var(--color-dark);
 }
 
 .signup {
