@@ -32,7 +32,7 @@ udacity-blog
 - Typography:  Custom design with at least three unique properties for each selector.
     - [x] Headers:  h1 to h3
     - Paragraph text: <p>
-        - [ ] bold
+        - [x] bold
         - [x] italic
         - [ ] underlined
     - Links 
@@ -49,13 +49,13 @@ udacity-blog
 
 The general pattern of the webpages should be as follows:
 
-- Blog Homepage
-    - Navbar
-    - Blog Post Card
+- [x] Blog Homepage
+    - [x] Navbar
+    - [x] Blog Post Card
         - [x] Card
         - [x] Image
         - [x] Buttons
-    - Footer
+    - [x] Footer
 - Blog Post
     - Header
     - Author Info
@@ -76,28 +76,28 @@ The general pattern of the webpages should be as follows:
 ## Layout
 
 ### Flexbox Based Layout
-- Uses flexbox at least twice throughout the project to create a component or pattern
-    - [ ] A
-    - [ ] B
+- [x] Uses flexbox at least twice throughout the project to create a component or pattern
+    - [x] .subject-card
+    - [x] .main-content
 
 ### Grid Based Layout
-- Uses CSS Grid at least twice throughout the project to create layout for the pages
+- [x] Uses CSS Grid at least twice throughout the project to create layout for the pages
     - [x] Homepage
-    - [ ] Blog
+    - [x] Blog
 
 ## Responsive Layout
 - Pages are mobile friendly and display correctly on all display sizes
     - Mobile
     - Tablet
-    - Desktop
+    - [x] Desktop
 
 ## Quality
 - Valid HTML
     - Use HTML semantic tags:
         - [ ] <header>
-        - [ ] <footer>
-        - [ ] <article>
-        - [ ] <section>
+        - [x] <footer>
+        - [x] <article>
+        - [x] <section>
         - [x] <nav>
     - No div or section without a class or ID
 - HTML formatting rules
