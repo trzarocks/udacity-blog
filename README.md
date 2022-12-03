@@ -56,22 +56,22 @@ The general pattern of the webpages should be as follows:
         - [x] Image
         - [x] Buttons
     - [x] Footer
-- Blog Post
-    - Header
-    - Author Info
-        - Name
-        - Title
-        - Current Company/School
-        - Short Bio
-        - Avatar
-    - Social Sharing
-        - Twitter
-        - Facebook
-        - LinkedIn
+- [ ] Blog Post
+    - [x] Header
+    - [ ] Author Info
+        - [ ] Name
+        - [ ] Title
+        - [ ] Current Company/School
+        - [ ] Short Bio
+        - [ ] Avatar
+    - [ ] Social Sharing
+        - [ ] Twitter
+        - [ ] Facebook
+        - [ ] LinkedIn
 
 ### Pages
-- [x] Blog Homepage
-- [ ] Blog Post
+- [x] Blog Homepage /index.html
+- [x] Blog Post /rotisserie-turkey.html
 
 ## Layout
 
@@ -93,10 +93,11 @@ The general pattern of the webpages should be as follows:
 
 ## Quality
 - Valid HTML
-    - Use HTML semantic tags:
-        - [ ] <header>
+    - [x] Use HTML semantic tags:
+        - [x] <header>
         - [x] <footer>
         - [x] <article>
+        - [x] <aside>
         - [x] <section>
         - [x] <nav>
     - No div or section without a class or ID
@@ -107,9 +108,9 @@ The general pattern of the webpages should be as follows:
     - Code uses a new line for every block, list or table element and indent every such child element (it is acceptable to put all elements in one line).
     - When quoting attribute values, code uses consistent quotation marks (single vs. double).
 - HTML styling rules
-    - HTML documents HTML5 <!doctype html>
-    - Code omits type attributes for style sheets and scripts.
-    - [Optional] Code does not use entity references unless necessary e.g. characters with special meaning (like < and &) as well as control or “invisible” characters (like no-break spaces).
+    - [x] HTML documents HTML5 <!doctype html>
+    - [x] Code omits type attributes for style sheets and scripts.
+    - [x] [Optional] Code does not use entity references unless necessary e.g. characters with special meaning (like < and &) as well as control or “invisible” characters (like no-break spaces).
 - CSS formatting rules
     - The code does not have trailing white spaces.
     - Indentation is consistent (either all tabs or all 2 spaces or all 4 spaces etc).

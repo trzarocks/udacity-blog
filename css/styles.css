@@ -1,9 +1,11 @@
 /* Must import at least 3 files */
+
 @import url(fonts.css);
 @import url(card.css);
 @import url(navbar.css);
 
 /* Set up Color Vars */
+
 :root {
     --color-light: #F7F0F5;
     --color-dark: #36454F;
@@ -41,7 +43,7 @@ header {
     flex-wrap: wrap;
 }
 
-.main {
+main {
     display: grid;
     grid-area: main;
     grid-template-columns: repeat(3, 1fr);
@@ -77,12 +79,11 @@ header {
 
 .form {
     text-align: center;
-    margin:auto;
+    margin: auto;
 }
 
 .submit {
     margin: 1em 0 2em 0;
-
 }
 
 .footer {
@@ -94,4 +95,44 @@ header {
     align-items: center;
     justify-content: center;
     background-color: var(--color-dark);
+}
+
+
+/* Blog Page */
+
+.blog-wrapper {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.share-wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.share {
+    display: flex;
+    background-color: hsla(71, 20%, 49%, 0.8);
+    width: 33%;
+    padding: 1em;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.featured-image>figcaption {
+    text-align: center;
+}
+
+.blog-content p {
+    padding: 0 20px;
+    font-size: 1.2em;
+    line-height: 1.4em;
 }
