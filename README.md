@@ -129,3 +129,9 @@ The general pattern of the webpages should be as follows:
     - [x] [Optional] Code includes leading 0s in decimal values for readability.
     - [x] [Optional] Code uses 3-character hexadecimal notation where possible.
     - [x] [Optional] Code separates words in ID and class names by a hyphen.
+
+## Atribution
+
+The sharing buttons are from Stefan Bohacek.  His open source code is available at https://simplesharingbuttons.com/ .  I chose them for their user privacy benefits vs. the code provided by respective social media websites.  I restyled the code to fit my project.  The data-source attribute was used as requested by the author.
+
+The social media icons came from Aha-Soft (http://www.aha-soft.com/) under the Creative Commons Attribution-Share Alike 3.0 License.  I had to use a text editor to edit their code and get them to display properly in this project.
