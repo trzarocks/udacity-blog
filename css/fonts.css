@@ -20,6 +20,7 @@ h2 {
     font-family: 'Figtree', sans-serif;
     font-weight: 700;
     font-size: 4em;
+    margin: 0 auto;
     margin-bottom: 0;
     color: var(--color-light);
 }
@@ -123,7 +124,7 @@ p.date {
         font-family: 'Figtree', sans-serif;
         font-weight: 700;
         font-size: 4em;
-        margin-bottom: 0;
+        text-align: center;
         color: var(--color-light);
     }
     
@@ -140,6 +141,8 @@ p.date {
         padding: 20px;
         line-height: 1.2em;
     }
+
+    
     
     .sidebar h3 {
         margin-top: 0;
