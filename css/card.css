@@ -178,5 +178,26 @@
 @media screen and (max-width: 599px) {
     .subject-img {
         width: 200px !important;
+        object-fit: contain;
+    }
+
+    figure img {
+        width: 300px;
+        text-align: center;
+        border-top: 1px var(--color-light);
+        border-radius: 12px 12px 0 0;
+    }
+
+    figcaption {
+        margin: auto;
+        font-style: italic;
+    }
+
+    .post-card {
+        margin-bottom: 48px;
+    }
+
+    .main-content {
+        padding: 1em;
     }
 }
