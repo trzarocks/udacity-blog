@@ -29,6 +29,7 @@
 
     figure img {
         width: 100%;
+        max-height: 100%;
         text-align: center;
         border-top: 1px var(--color-light);
         border-radius: 12px 12px 0 0;
@@ -130,6 +131,19 @@
   and (max-device-width: 900px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
+    .post-card {
+        padding-bottom: 5vh;
+        margin-bottom: 0;
+        border-bottom: 10px solid white;
+    }
+
+    .post-card p {
+        padding: 1em;
+    }
+
+    .date {
+        padding-left: 1em;
+    }
 
     /* Subject Card */
 
@@ -147,10 +161,10 @@
 
         background: var(--color-light);
         border-radius: 20px;
-        width: 90%;
-        margin-top: 5%;
+        width: 100%;
         border: 1px solid var(--color-light);
         position: relative;
+        text-align: center;
     }
 
     .subject-img-prsn  {
@@ -161,6 +175,10 @@
         width: 80%;
         border-radius: 20px;
         margin: auto;
+    }
+
+    .subject-img-prsn {
+        text-align: center;
     }
 
     .subject-img-prsn img {
@@ -175,8 +193,54 @@
 
 }
 
-@media screen and (max-width: 599px) {
-    .subject-img {
-        width: 200px !important;
+
+@media only screen and (max-device-width: 599px) {
+
+    .post-card {
+        padding-bottom: 5vh;
+        margin-bottom: 5vh;
+        border-bottom: 1px solid var(--color-dark);
     }
+
+    .subject-img-prsn img {
+        max-width: 200px;
+        margin: auto;
+    }
+
+    .subject-wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        background: var(--color-green);
+        margin: 5%;
+        border-radius: 20px;
+
+    }
+
+    .subject-img {
+
+        background: var(--color-light);
+        border-radius: 20px;
+        width: 100%;
+        border: 1px solid var(--color-light);
+        position: relative;
+    }
+
+    .subject-img-prsn  {
+        margin: auto;
+
+    }
+
+    .subject-img img {
+        width: 100%;
+        border-radius: 20px;
+        margin: auto;
+    }
+
+    .subject-info {
+        margin: 0 1em 0 1em;
+    }
+
+    
 }
