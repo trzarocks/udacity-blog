@@ -48,20 +48,20 @@ li.linky>a:active {
 }
 
 @media only screen and (max-device-width: 599px) {
-    li.linky a {
-        color: var(--color-light);
-        padding: 1em 0em;
-        text-decoration: none;
-    }
-
+    
     .menu li {
         display: inline;
-        padding: 16px;
+        padding: 1em;
         color: var(--color-light);
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: 700;
         text-transform: uppercase;
         border-right: 1px solid var(--color-light);
         border-width: 80%;
     }
+
+    li.linky a {
+        padding: .5em;
+    }
+
 }
